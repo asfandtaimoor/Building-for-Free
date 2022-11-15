@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+.try {
+  max-width: 1920px;
+  min-width: 350px;
+  margin: auto;
+  padding: 100px 0px;
+}
+
+.try-cont {
+  max-width: 1190px;
+  margin: auto;
+  border-radius: 40px;
+  background: #e2e8f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.try-cont .content {
+  width: 474px;
+  padding: 90px 60px;
+}
+
+.try-cont .img {
+  width: 481px;
+  position: relative;
+}
+
+.try-cont .img::before {
+  content: '';
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 407px;
+  height: 399px;
+  opacity: 0.8;
+  z-index: 1;
+  background-image: url(../bg/Ellipse\19.png);
+}
+
+.heading-1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -2px;
+  color: #090914;
+  margin-block: 0px;
+}
+
+.desc-1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #18181b;
+  margin: 18px 0px 32px;
+}
+
+.btn {
+  font-family: 'Poppins';
+  font-style: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 25px;
+  background: #2563eb;
+  border-radius: 50px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.blue {
+  background: #2563eb;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.blue:hover {
+  background: #0e3faa;
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=try.css.map */
